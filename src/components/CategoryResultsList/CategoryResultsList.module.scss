@@ -1,0 +1,40 @@
+.container {
+  background-color: rgb(47, 47, 47);
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  max-width: 40rem;
+}
+
+.list {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.listItem {
+  background-color: rgb(77, 77, 77);
+  height: 2rem;
+  margin-bottom: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: rgb(86, 86, 86);
+  }
+}
+
+.msg {
+  font-size: 17px;
+}
+
+.spinnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

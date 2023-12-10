@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.spinnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+table {
+    border-spacing: 0;
+    overflow: hidden;
+    min-width: 50rem;
+    border-collapse: separate !important;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+tr {
+    height: 3rem;
+    background-color: rgb(44, 44, 44);
+
+    &:nth-child(odd) {
+        background-color: rgb(55, 54, 54);
+    }
+}
+
+th,
+td {
+    border-bottom: 1px solid gray;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+thead {
+    font-size: 20px;
+}

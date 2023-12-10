@@ -1,0 +1,38 @@
+header,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-top: 15rem;
+}
+
+.main {
+    margin-top: 2rem;
+}
+
+.starWarsLogo {
+    width: 15rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 11rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: rgb(212, 215, 1);
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
+}
+
+.titleSearch {
+    font-size: 3rem;
+    position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 5rem;
+    }
+}
